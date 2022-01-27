@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 11.6563, 3 )
+
+[node name="Hitbox" type="Area2D"]
+collision_layer = 64
+
+[node name="collision" type="CollisionShape2D" parent="."]
+position = Vector2( 5.34375, 9 )
+shape = SubResource( 1 )
