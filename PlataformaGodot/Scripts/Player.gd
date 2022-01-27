@@ -18,6 +18,7 @@ func _physics_process(delta: float) -> void:
 	
 	_set_animation()
 	
+	
 func _get_input():
 	velocity.x = 0
 	var move_direction = int(Input.is_action_pressed("move_right")) - int(Input.is_action_pressed("move_left"))
