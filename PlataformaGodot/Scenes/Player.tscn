@@ -262,7 +262,7 @@ editor_draw_drag_margin = true
 
 [node name="hurtbox" type="Area2D" parent="."]
 collision_layer = 32
-collision_mask = 18
+collision_mask = 2
 
 [node name="collision" type="CollisionShape2D" parent="hurtbox"]
 position = Vector2( 0, 2 )

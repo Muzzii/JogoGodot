@@ -69,7 +69,7 @@ func _on_hurtbox_body_entered(body):
 	hurted = true
 	knockback()
 	get_node("hurtbox/collision").set_deferred("disabled", true)
-	yield(get_tree().create_timer(0.5), "timeout")
+	yield(get_tree().create_timer(0.2), "timeout")
 	get_node("hurtbox/collision").set_deferred("disabled", false)
 	hurted = false
 	
